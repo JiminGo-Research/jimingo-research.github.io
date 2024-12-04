@@ -1,80 +1,56 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Information Systems Game Day Analytics Competition
+description: The most effecitve brand of Super Bowl LVIII on various perspectives
+img: assets/img/gdac_logo.png
 importance: 3
-category: fun
+category: Additional
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+I participated in the <b>Game Day Analytics Challenge</b> hosted by the David Eccles School of Business at the University of Utah. In this competition, we created an <a href="/assets/pdf/GDAC_Infographic.pdf" class="infographic">infographic</a>, <a href="/assets/pdf/GDAC_White Paper.pdf">white paper</a>, and <a href="/assets/pdf/GDAC_Presentation.pdf">presentation</a>. Our team secured <b>2nd place in the undergraduate division</b>.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b>Our goal : </b> Which brand delivered the most effective Super Bowl advertisement?
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<b>Brief summarization of our strategy :</b> We first thought about <b>"What makes an ad successful?"</b> and conducted various analyses, including the number of tweets per brand over time, cost per tweet by brand, and sentiment analysis. <b>However, each analysis raised questions for us, and we coulnd't definitively say tat any one brand performed consistently well across all criteria.</b>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gdac_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Results of tweets per barand over time
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+<b>Multi-Criteria Decision Making : </b> Therefore, we decided to evaluate the effectiveness of the advertisements by <b>considering all the factors comprehensively and chose to use a MCDM model</b>. We used a model that combines <b>AHP</b> and <b>TOPSIS</b>. The weights were determined through the AHP model, while the TOPSIS model was used to evaluate how close the alternatives were to the given criteria in order to identify the most ideal alternative. 
+
+As shown in the structure of the AHP model at the bottom left, we used the number of tweets, cost per tweet, positive tweet ratio, and negative tweet ratio as the criteria. The image on the right shows the brand rankings when more weight is given to each criterion. For example, in the case of Universal, when more weight is given to the number of tweets, it ranks 5th, but when more weight is given to the positive tweet ratio, it drops to 63rd. This analysis suggests that Universal did not receive many positive tweets.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/gdac_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/gdac_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Structure of AHP and TOPSIS results
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<b>Who is the real winner?</b> Upon seeing the experimental results, where the NFL ranked first in all categories, we began to wonder <b>if it was simply because the NFL hosted the game, leading to a higher number of mentions</b>. This curiosity led us to <b>social network analysis</b>. We difined nodes as each user and brand, and we determined that an edge exists when a user mentions a brand name in a tweet. We also examined how the network evolved during the initial game time, half game time, and entire game time. What was surprising was that, <b>after the game ended, contrary to the results from the MCDM, Verizon had the largest node size</b>.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gdac_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Visualization of the social network analysis for the entire game time.
+</div>
 
-{% endraw %}
+<b>Conclusion : </b> Rather than asserting that one method is right over the other, we believe that both MCDM and social network analysis are valuable approaches that companies can consider when evaluating the effectiveness of their advertising.
+
+This competition took place just two months after I arrived in the United States, and I felt a lot of pressure knowing that we had to complete data analysis, create three materials, and present them professionally in English within the given timeframe. Despite that, I am incredibly proud of the great results that our team and I achieved!
+
+If you would like to learn more about this competition, please refer to this <a href="https://eccles.utah.edu/programs/undergraduate/game-day-ad-analytics/" target="_blank">link.</a> 
