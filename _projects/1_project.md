@@ -2,7 +2,7 @@
 layout: page
 title: Generating autonomous annotations for second-hand e-commerce platforms
 description:
-img: assets/img/summer_research.jpg
+img: assets/img/summer_research.png
 importance: 1
 category: Research Project
 related_publications: false
