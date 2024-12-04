@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently enrolled in a <b>dual bachelor's degree program</b>, having studied <b>Industrial and Management Engineering</b> for three years at Incheon National University and now pursuing <b>Management Information Systems</b> at Weber State University. I am expected to graduate from both institutions in the spring of 2025.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research goal is to enable the <b>safe</b> and <b>reliable integration</b> of <b>intelligent, adaptable AI agents</b> and <b>robots</b> into society, particularly those designed to effectively <b>navigate unfamiliar situations.</b>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+This vision is rooted in my academic journey, which has fueled my passion for creating AI systems capable of independently determining <b>what needs to be done</b>, identifying <b>knowledge gaps</b>, and <b>learning how to address</b> them efficiently. I am especially interested in developing <b>end-to-end pipelines</b> that integrate problem understanding, adaptive learning, and decisive action. To achieve this, I leverage advanced techniques in machine learning, reinforcement learning, and robotics to build intelligent systems that are both effective and trustworthy.
