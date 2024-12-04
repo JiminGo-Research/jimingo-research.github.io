@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Entrepreneurship Club
-description: a project with a background image
+description: 
 img: assets/img/hogu_1.png
 importance: 3
 category: Additional
