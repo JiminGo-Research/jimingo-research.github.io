@@ -14,6 +14,7 @@ news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Contact : jimingo.jg@gmail.com
 
 I am currently enrolled in a <b>dual bachelor's degree program</b>, having studied <b>Industrial and Management Engineering</b> for three years at Incheon National University and now pursuing <b>Management Information Systems</b> at Weber State University. I am expected to graduate from both institutions in the spring of 2025.
 
