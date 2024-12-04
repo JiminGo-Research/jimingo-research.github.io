@@ -1,24 +1,34 @@
 ---
 layout: page
-title: project 5
+title: Entrepreneurship Club
 description: a project with a background image
-img: assets/img/1.jpg
+img: assets/img/hogu_1.png
 importance: 3
-category: fun
+category: Additional
 ---
+<b> Purpose of this study & Goal : </b>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In 2023, there was significant interest in South Korea in finding lower prices through <b>international direct purchases</b> (buying goods directly from overseas retailers) and <b?reverse direct purchases</b> (buying Korean goods to overseas retailers). I noticed that many people were <b>struggling to determine which overseas websites offered the best deals on specific products.</b> To address this, I decided to develop a service that could provide a solution. Together with two other students, I <b>created a website that compares prices of identical products across various platforms</b>, helping users identify the most cost-effective options. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<b> Method : </b>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<b> Results : </b>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/hogu_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/hogu_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Our proposed website
+</div>
+
+<b> Conclusion : </b>
+
+<b> Reflection : </b>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
