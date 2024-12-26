@@ -37,7 +37,7 @@ We used Python's OpenCV library for this task, and the following images show the
     Results of OpenCV
 </div>
 
-<b>Step 2: Title Similarity Using Cosine Similarity</b> As shown in the image below, even though the product names differ—<b>"Laneige Lip Sleeping Mask Berry" in Korea</b> and </b>"Korean Moisturizing Strawberry Lip Mask" in Portugal</b>—they are the same item. <b>Without image similarity, title comparison alone might have led us to incorrectly classify these as different products.</b>
+<b>Step 2: Title Similarity Using Cosine Similarity</b> As shown in the image below, even though the product names differ—<b>"Laneige Lip Sleeping Mask Berry" in Korea</b> and <b>"Korean Moisturizing Strawberry Lip Mask" in Portugal</b>—they are the same item. <b>Without image similarity, title comparison alone might have led us to incorrectly classify these as different products.</b>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -48,7 +48,7 @@ We used Python's OpenCV library for this task, and the following images show the
     </div>
 </div>
 
-<bStep 3: Price comparison</b> We observed that <b>products with different quantities or sizes were sometimes incorrectly identified as identical</b>. Since image and title similarities couldn't fully solve this, we introduced a third step—comparing product prices. For instance, if a product is sold for $10 in Korea and $50 in Portugal, we would consider them separate items, even if their image and title similarities were high. However, if the price difference is reasonable (e.g., $50 in Portugal versus $35 in Korea), we would consider them the same product.
+<b>Step 3: Price comparison</b> We observed that <b>products with different quantities or sizes were sometimes incorrectly identified as identical</b>. Since image and title similarities couldn't fully solve this, we introduced a third step—comparing product prices. For instance, if a product is sold for $10 in Korea and $50 in Portugal, we would consider them separate items, even if their image and title similarities were high. However, if the price difference is reasonable (e.g., $50 in Portugal versus $35 in Korea), we would consider them the same product.
 
 <b> Results : </b>
 Based on this method, I developed a beta version of the website using HTML, CSS, Bootstrap, React, JavaScript, and a database.
