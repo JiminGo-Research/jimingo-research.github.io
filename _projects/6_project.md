@@ -7,7 +7,7 @@ importance: 4
 category: Research Project
 ---
 
-This project is my first lead project in Industrial Intelligence Laboratory at Incheon National University. Based on this work, our team published <a href="/assets/pdf/patent_certification.pdf">patent</a> and awarded an 19th Industrial Engineering Project Competition hosted by Korean Institute of Industrial Engineers(KIIE).
+This project is my first lead project in Industrial Intelligence Laboratory at Incheon National University. Based on this work, our team published patent and awarded an 19th Industrial Engineering Project Competition hosted by Korean Institute of Industrial Engineers(KIIE).
 
 <b>Purpose of this study : </b>
 
