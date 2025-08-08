@@ -4,7 +4,7 @@ title: Information Systems Game Day Analytics Competition
 description: The most effecitve brand of Super Bowl LVIII on various perspectives
 img: assets/img/gdac_logo.png
 importance: 3
-category: Additional
+category: Undergraduate
 ---
 
 I participated in the <b>Game Day Analytics Challenge</b> hosted by the David Eccles School of Business at the University of Utah. In this competition, we created an <a href="/assets/pdf/GDAC_Infographic.pdf" class="infographic">infographic</a>, <a href="/assets/pdf/GDAC_White Paper.pdf">white paper</a>, and <a href="/assets/pdf/GDAC_Presentation.pdf">presentation</a>. Our team secured <b>2nd place in the undergraduate division</b>.
