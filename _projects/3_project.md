@@ -4,7 +4,7 @@ title: 2024 Spring Research & Engagement Symposium
 description: Multi label node classification for predicting brands in tweets
 img: assets/img/springsymposium_framework.png
 importance: 3
-category: Research Project
+category: Undergraduate
 ---
 I participated in the 2024 Spring Research & Engagement Symposium hosted by Weber State University. This research is a follow-up study on the limitations experienced during participation in the <a href="https://jimingo-research.github.io/projects/4_project/"> Game Day Analytics Challenge.</a>
 
