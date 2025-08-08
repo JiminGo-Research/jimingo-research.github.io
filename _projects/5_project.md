@@ -4,7 +4,7 @@ title: Entrepreneurship Club
 description: 
 img: assets/img/hogu_1.png
 importance: 3
-category: Additional
+category: Undergraduate
 ---
 <b> Purpose of this study & Goal : </b>
 
