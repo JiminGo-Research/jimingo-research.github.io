@@ -16,8 +16,9 @@ social: true # includes social icons at the bottom of the page
 ---
 Contact : jimingo.jg@gmail.com
 
-I am currently enrolled in a <b>dual bachelor's degree program</b>, having studied <b>Industrial and Management Engineering</b> for three years at Incheon National University and now pursuing <b>Management Information Systems</b> at Weber State University. I am expected to graduate from both institutions in the spring of 2025.
+I am a Ph.D. student in Computer Engieering (Computer Systems) at Arizona State University, AZ, United States under the supervision of Prof. Leslie Hwang, beginning in Fall 2025. I received a B.S. in Management Information Systems from Weber State University, UT, United States, and a B.E. nin Industrial and Management Engieering from Incheon National University, Republic of Korea. 
 
-My research goal is to enable the <b>safe</b> and <b>reliable integration</b> of <b>intelligent, adaptable AI agents</b> and <b>robots</b> into society, particularly those designed to effectively <b>navigate unfamiliar situations.</b>
+My research Interests lie in <b>advanced semiconductor packaging</b> and <b>electronic design automation (EDA)</b>, with a focus on 3DIC integration and package co-design. I also explore the use of <b>machine learning</b> and optimization techniques to enhance manufacturing efficienty, defect detection, and system-level reliability in semiconductor packaging.
 
-This vision is rooted in my academic journey, which has fueled my passion for creating AI systems capable of independently determining <b>what needs to be done</b>, identifying <b>knowledge gaps</b>, and <b>learning how to address</b> them efficiently. I am especially interested in developing <b>end-to-end pipelines</b> that integrate problem understanding, adaptive learning, and decisive action. To achieve this, I leverage advanced techniques in machine learning, reinforcement learning, and robotics to build intelligent systems that are both effective and trustworthy.
+Currently, I am involved in the <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA Project</a>, contributing to the development of EDA-enabled methodologies for heterogenous integration and advanced packaging. 
+
