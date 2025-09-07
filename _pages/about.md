@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 ---
 Contact : jimingo.jg@gmail.com
 
-I am a Ph.D. student in Computer Engieering (Computer Systems) at Arizona State University, AZ, United States under the supervision of Prof. Leslie Hwang, beginning in Fall 2025. I received a B.S. in Management Information Systems from Weber State University, UT, United States, and a B.E. nin Industrial and Management Engieering from Incheon National University, Republic of Korea. 
+I am a <b>Ph.D. student in Computer Engieering (Computer Systems) at Arizona State University</b>, AZ, United States under the supervision of <a href="https://sites.google.com/view/lesliekhwang">Prof. Leslie Hwang</a>, beginning in Fall 2025. I received a B.S. in Management Information Systems from Weber State University, UT, United States, and a B.E. nin Industrial and Management Engieering from Incheon National University, Republic of Korea. 
 
 My research Interests lie in <b>advanced semiconductor packaging</b> and <b>electronic design automation (EDA)</b>, with a focus on 3DIC integration and package co-design. I also explore the use of <b>machine learning</b> and optimization techniques to enhance manufacturing efficienty, defect detection, and system-level reliability in semiconductor packaging.
 
