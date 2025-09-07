@@ -4,7 +4,7 @@ title: Developing Simulation-based Integrated Operation Scheduling System
 description:
 img: "assets/img/electroplating_3.png"
 importance: 4
-category: Research Project
+category: Undergraduate
 ---
 
 This project is my first lead project in Industrial Intelligence Laboratory at Incheon National University. Based on this work, our team published patent and awarded an 19th Industrial Engineering Project Competition hosted by Korean Institute of Industrial Engineers(KIIE).
