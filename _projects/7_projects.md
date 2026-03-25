@@ -12,7 +12,7 @@ This project is group Project for CSE 475: Foundations of Machine Learning at Ar
 
 <b>Role</b>: Team Leader (Project Management, Data Preprocessing, and Transformer Model Development)
 
-You can find the full implementation, datasets at the following link and here is the <a href="assets/pdf/Final_Report_Group 17.pdf"> paper </a> . 
+You can find the full implementation, datasets at the following link and here is the <a> paper </a> . 
 
 <b>Background & Objective</b>
 
