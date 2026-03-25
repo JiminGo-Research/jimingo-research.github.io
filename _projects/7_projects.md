@@ -10,9 +10,9 @@ related_publications: false
 
 This project is group Project for CSE 475: Foundations of Machine Learning at Arizona State University
 
-Role: Team Leader (Project Management, Data Preprocessing, and Transformer Model Development)
+<b>Role</b>: Team Leader (Project Management, Data Preprocessing, and Transformer Model Development)
 
-You can find the full implementation, datasets at the following link and here is the <a href="assets/pdf/Final Report Group 17.dox.pdf"> paper </a> . 
+You can find the full implementation, datasets at the following link and here is the <a href="assets/pdf/Final_Report_Group 17.pdf"> paper </a> . 
 
 <b>Background & Objective</b>
 
@@ -34,4 +34,5 @@ The research involved a rigorous comparative study of several state-of-the-art d
 Throughout the experimentation phase, I conducted extensive hyperparameter tuning and architectural refinements to discover the optimal configuration for each model. This process involved balancing model complexity with inference speed, a crucial factor for real-world GUI agents that must respond near-instantaneously to user inputs.
 
 <b>Results & Key Insights</b>
+
 The experimental results yielded a significant architectural insight: while Transformers are often the gold standard for sequence tasks, a lightweight 1D-CNN-based model demonstrated superior performance in the specific domain of GUI interaction sequences. This model achieved a Validation Accuracy of 0.5598 and a Mean Reciprocal Rank (MRR) of 0.7173, outperforming more complex counterparts in both accuracy and generalization. This finding suggests that for GUI-based agents, capturing local sequential patterns is often more effective than global attention-based modeling. The project concluded with a proven framework for intelligent GUI automation, providing a foundation for future AI-driven interface optimization and autonomous digital assistants.
