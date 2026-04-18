@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/CV_Spring_2026.pdf
+permalink: /assets/pdf/JiminGo_CV_Final.pdf
 title: cv
 nav: true
 nav_order: 5
