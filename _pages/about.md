@@ -16,9 +16,9 @@ social: true # includes social icons at the bottom of the page
 ---
 Contact : jimingo.jg@gmail.com
 
-I am a <b>Ph.D. student in Computer Engieering (Computer Systems) at Arizona State University</b>, AZ, United States under the supervision of <a href="https://sites.google.com/view/lesliekhwang">Prof. Leslie Hwang</a>, beginning in Fall 2025. I received a B.S. in Management Information Systems from Weber State University, UT, United States, and a B.E. nin Industrial and Management Engieering from Incheon National University, Republic of Korea. 
+I am a <b>Graduate student in Computer Engieering (Computer Systems) at Arizona State University</b>, AZ, United States under the supervision of <a href="https://sites.google.com/view/lesliekhwang">Prof. Leslie Hwang</a>, beginning in Fall 2025. I received a B.S. in Management Information Systems from Weber State University, UT, United States, and a B.E. nin Industrial and Management Engieering from Incheon National University, Republic of Korea. 
 
-My research Interests lie in <b>advanced semiconductor packaging</b> and <b>electronic design automation (EDA)</b>, with a focus on 3DIC integration and package co-design. I also explore the use of <b>machine learning</b> and optimization techniques to enhance manufacturing efficienty, defect detection, and system-level reliability in semiconductor packaging.
+My research lies at the intersection of <b>advanced semiconductor packaging</b> and <b>electronic design automation (EDA)</b>, with a focus on 3D-IC integration and package co-design. I develop <b>physics-aware machine learning frameworks</b>, particularly neural operators and generative models, to automate and accelerate design optimization in advanced packaging systems.
 
 Currently, I am involved in the <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA Project</a>, contributing to the development of EDA-enabled methodologies for heterogenous integration and advanced packaging. 
 
