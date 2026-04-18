@@ -12,7 +12,7 @@ This project is group Project for CSE 475: Foundations of Machine Learning at Ar
 
 <b>Role</b>: Team Leader (Project Management, Data Preprocessing, and Transformer Model Development)
 
-You can find the full implementation, datasets at the following link and here is the <a> paper </a> . 
+You can find the full implementation and datasets at the <a href="https://drive.google.com/drive/folders/1gWSnfs6QbPVHuD3VnZG9qKKRSE46WSq4?usp=drive_link"> following link</a>, and here is the <a href="https://drive.google.com/file/d/1F2HmuMFcJf_VOaAvTp1LXQMhTBTUGIOB/view">paper</a>.
 
 <b>Background & Objective</b>
 
@@ -25,9 +25,9 @@ To achieve high-fidelity predictions, our team focused on modeling the "user wor
 <b>Technical Implementation & Comparative Analysis</b>
 The research involved a rigorous comparative study of several state-of-the-art deep learning architectures to identify the most effective model for real-time GUI prediction. We designed and implemented multiple pipelines using:
 
-<b> Convolutional Neural Networks (1D-CNN)</b> to capture local spatial-temporal patterns in action sequences.
+<b>Convolutional Neural Networks (1D-CNN)</b> to capture local spatial-temporal patterns in action sequences.
 
-<b> Recurrent Neural Networks (GRU and LSTM)</b> to manage long-term dependencies within extended user sessions.
+<b>Recurrent Neural Networks (GRU and LSTM)</b> to manage long-term dependencies within extended user sessions.
 
 <b>Transformer Models</b> to leverage self-attention mechanisms for global context understanding.
 
