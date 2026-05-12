@@ -4,7 +4,7 @@ title: Agentic AI-Towards Robust GUI Agents for Real-World Applications
 description: GUI Agent Tuning for Interface Prediction 
 img: "assets/img/Agentic_AI.webp"
 importance: 1
-category: Graduate
+category: Graduate Coursework
 related_publications: false
 ---
 
