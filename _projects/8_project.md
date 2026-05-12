@@ -24,6 +24,9 @@ The core challenge is this: a designer exploring microchannel geometry for cooli
         class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Thermal hotspot formation in advanced 2.5D/3D integrated packaging architectures
+</div>
 
 <b>Research Arc: From Operator Learning Foundations to Inverse Design</b>
 
@@ -67,6 +70,9 @@ I then extended FNO to a custom CFD-generated dataset: a 2D wavy channel with va
         class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Interpolation case: Unit Gaussian vs MinMax normalization
+</div>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -74,6 +80,9 @@ I then extended FNO to a custom CFD-generated dataset: a 2D wavy channel with va
         title="Extrapolation case with the lowest inlet velocity, uin=0.0501 m/s: Unit Gaussian vs. MinMax normalization"
         class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Extrapolation case with the lowest inlet velocity, uin=0.0501 m/s: Unit Gaussian vs. MinMax normalization
 </div>
 
 <div class="row justify-content-sm-center">
@@ -83,7 +92,9 @@ I then extended FNO to a custom CFD-generated dataset: a 2D wavy channel with va
         class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    Extrapolation case with the highest inlet velocity, uin=0.1999 m/s: Unit Gaussian vs. MinMax normalization
+</div>
 <b>Key findings:</b>
 FNO successfully learned geometry-dependent multi-field predictions from 1,200 CFD samples
 Model width had a clear effect on accuracy; the problem required sufficient latent capacity to learn coupled field relationships
