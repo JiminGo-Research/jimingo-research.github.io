@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [Graduate, Undergraduate]
+display_categories: [Graduate Research, Graduate Coursework, Undergraduate]
 horizontal: false
 ---
 
