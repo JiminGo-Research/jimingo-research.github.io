@@ -7,6 +7,7 @@ importance: 1
 category: Graduate Research
 ---
 <b>Overview</b>
+
 This is my current graduate research project at Arizona State University.
 
 Advanced semiconductor packaging, particularly 2.5D SiP and 3D-IC architectures, faces critical thermal management challenges. As chip density increases, heat dissipation becomes a fundamental bottleneck for package reliability and performance. Traditional CFD-based simulation methods can accurately model thermal behavior, but they are computationally expensive when thousands of design variations must be evaluated during early-stage design-space exploration.
@@ -37,7 +38,9 @@ This project is built in stages. The foundational methodology work (neural opera
 Before building the pipeline, I conducted a systematic review of neural operator methods for PDE-based surrogate modeling, covering:
 
 Graph Kernel Network (GKN) — the first neural operator formulation, using graph-based message passing to approximate solution operators across different discretizations
+
 Fourier Neural Operator (FNO) — performs non-local operator learning in Fourier space via FFT, enabling efficient global spatial reasoning
+
 Physics-Informed Neural Operator (PINO) — extends FNO by incorporating PDE residual constraints into training, improving physical consistency when labeled data is scarce
 
 You can find detailed literature survey results <a href="https://docs.google.com/presentation/d/1mFQrFEUKPdpj7XBUYKJmyj5gPp7OLWH1/edit?usp=drive_link&ouid=104050058597919759139&rtpof=true&sd=true">here</a>.
@@ -102,8 +105,6 @@ Normalization strategy critically affected extrapolation robustness: Unit Gaussi
 
 <b>Stage 5 — Physics-Aware Inverse Modeling Pipeline (In Progress)</b>
 
-[INSERT: pipeline architecture diagram — showing the flow from thermal boundary condition input → diffusion model → FNO → geometry output]
-
 The full pipeline combines two components:
 
 Forward model (FNO): Given a microchannel geometry and boundary conditions, predict the resulting thermal field. This is trained on CFD simulation data generated via automated PyFluent workflows.
@@ -115,9 +116,13 @@ Together, these form an autonomous design generation loop: a thermal requirement
 <b>Tools & Methods</b>
 
 <b>CFD Simulation</b>: Ansys Fluent / PyFluent (automated data generation pipeline)
+
 <b>Neural Operators</b>: Fourier Neural Operator (FNO), Physics-Informed Neural Operator (PINO)
+
 <b>Generative Modeling</b>: Diffusion model for geometry generation
+
 <b>Frameworks</b>: PyTorch, CUDA GPU computing
+
 <b>Target Application</b>: Microchannel cooling in 2.5D SiP and 3D-IC advanced packaging
 
 <b>Current Status & Next Steps</b>
