@@ -12,8 +12,7 @@ Overview
 Large-scale supply chain networks are complex graphs where relationships between suppliers and buyers are often incomplete or unknown — yet discovering latent supply relationships is critical for risk assessment, procurement optimization, and network resilience planning. 
 This project develops a <b>Graph Attention Network (GAT)-based framework</b> that predicts potential supply relationships using multi-feature node representations.
 
-Published as: <a href="10.1016/j.eswa.2025.128593">Multi-feature representation-based graph attention networks for predicting potential supply relationships in a large-scale supply chain network</a>
-D. Lee, J. Go, T. Noh, S. SongExpert Systems with Applications, 2025 DOI: 10.1016/j.eswa.2025.128593
+Published as: Multi-feature representation-based graph attention networks for predicting potential supply relationships in a large-scale supply chain network, D. Lee, J. Go, T. Noh, S. SongExpert Systems with Applications, 2025 DOI: 10.1016/j.eswa.2025.128593
 
 
 <b>Problem Formulation</b>
