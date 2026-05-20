@@ -1,167 +1,168 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Jimin Go
-    - name: Location
-      value: Tempe, AZ, United States
-    - name: Email
-      value: jimingo.jg@gmail.com
-    - name: Languages
-      value: English, Korean
-
-- title: Education
-  type: time_table
-  contents:
-    - title: M.S. in Computer Engineering (Computer Systems)
-      institution: Arizona State University, Tempe, AZ, USA
-      year: Aug 2025 –
-      description:
-        - "GPA: 4.0 / 4.0"
-        - "Advisor: Prof. Leslie K. Hwang"
-        - "University Graduate Fellowship: awarded for research progress and academic excellence"
-        - Expected graduation Dec 2026
-    - title: B.S. in Management Information Systems
-      institution: Weber State University, Ogden, UT, USA
-      year: 2024.01 – 2025.05
-      description:
-        - Dual Bachelor's Degree Program with Incheon National University (3 years at INU, 4 semesters at WSU)
-        - "GPA: 3.92 / 4.0"
-        - Top 10% of the Goddard School of Business & Economics
-    - title: B.E. in Industrial and Management Engineering
-      institution: Incheon National University, Incheon, Republic of Korea
-      year: 2021.03 – 2025.08
-      description:
-        - "GPA: 4.41 / 4.5"
-        - Presidential Award — Ranked 1st in the College of Engineering
-
-- title: Research & Project Experience
-  type: time_table
-  contents:
-    - title: Graduate Research Assistant — <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA</a>
-      institution: Arizona State University / Synopsys / Deca Technologies
-      year: Aug 2025 –
-      description:
-        - Executed full RTL-to-GDSII physical design for an RDL fan-out test vehicle — monitor design, floorplanning, timing-driven placement and routing using Synopsys 3DIC Compiler
-        - Reduced DRC/LVS violations from >100,000 to <30,000 in IC Validator (ICV) by root-causing layout rule and verification issues
-        - Building end-to-end signoff workflow integrating StarRC for parasitic extraction and PrimeTime for post-route STA and timing closure
-        - Contributed to custom PDK/ADK verification — identifying runset issues and reporting them to Synopsys for resolution
-        - "Co-authored GOMACTech 2026: <em>SHIELD USA: Leap-ahead Organic Substrate Enabled by Fan-Out Technology, Domestic Materials, Process Innovations, and Novel EDA Workflows</em>"
-    - title: Physics-Aware Neural Operator for Thermal Design Optimization in Advanced Packaging
-      institution: Arizona State University
-      year: Mar 2026 –
-      description:
-        - Developing a physics-informed ML framework for microchannel geometry generation targeting thermal management in 2.5D SiP and 3D-IC packaging
-        - Automated end-to-end PyFluent/Ansys CFD simulation workflows to generate training data for ML-guided design-space exploration
-        - Designing a physics-aware inverse modeling pipeline combining a diffusion model and Fourier Neural Operator (FNO)
-    - title: "Agentic AI: Towards Robust GUI Agents"
-      institution: Arizona State University (Course Research Project)
-      year: 2025.09 – 2025.12
-      description:
-        - Led development of a Transformer-based GUI navigation agent with self-attention mechanisms to predict sequential user actions
-        - Conducted comparative hyperparameter tuning across Transformer, 1D-CNN, and LSTM architectures — achieved MRR of 0.72
-        - Engineered multi-modal data preprocessing pipeline tokenizing UI elements and screen transitions
-
-- title: Teaching Experience
-  type: time_table
-  contents:
-    - title: Graduate Service Assistant — EEE 425/591 Digital Systems & Circuits
-      institution: Arizona State University
-      year: 2026
-      description:
-        - Supported 100+ students in digital systems and circuits coursework
-    - title: Teaching Assistant — MIS 2010 / 2030 / 2040
-      institution: Weber State University
-      year: 2025
-      description:
-        - "MIS 2010: Business Computer Skills"
-        - "MIS 2030: Introduction to Business Analytics"
-        - "MIS 2040: Business Analytics with Python"
-        - 50+ students per course
-
-- title: Selected Publications
-  type: time_table
-  contents:
-    - title: >
-        <a href="https://drive.google.com/file/d/1yXbdnmCC_0EWTl2QvNxx0MDKmAds5o5m/view">
-        SHIELD-USA: Leap-ahead Organic Substrate Enabled by Fan-out Technology, Domestic Materials, Process Innovations, and Novel EDA Workflows</a>
-      year: 2026
-      description:
-        - "G. Dogiamis, T. Takeuchi, C. Bishop, L. Hwang, A. Bunn, <strong>J. Go</strong>, et al."
-        - Conference on Government Microcircuit Applications & Critical Technology (GOMACTech), 2026
-    - title: >
-        <a href="https://doi.org/10.1007/s40684-026-00867-9">
-        ElectroTwin: A digital twin-driven framework for designing and scheduling in electroplating facilities</a>
-      year: 2026
-      description:
-        - "D. Lee, T. Noh, <strong>J. Go</strong>, I. Park, K. Kim"
-        - International Journal of Precision Engineering and Manufacturing-Green Technology, 2026
-    - title: >
-        <a href="https://doi.org/10.1016/j.eswa.2025.128593">
-        Multi-feature representation-based graph attention networks for predicting potential supply relationships in a large-scale supply chain network</a>
-      year: 2025
-      description:
-        - "D. Lee, <strong>J. Go</strong>, T. Noh, S. Song"
-        - Expert Systems with Applications, 2025
-
-- title: Patent
-  type: time_table
-  contents:
-    - title: Cyclic Hoist Scheduling Method, Manufacturing Method, and Cyclic Hoist Scheduling Apparatus
-      year: 2024
-      description:
-        - K. Kim, J. Go, T. Noh
-        - Korean Patent No. 10-2024-0007227
-
-- title: Honors & Awards
-  type: time_table
-  contents:
-    - year: 2026
-      items:
-        - DAC Young Fellow, Design Automation Conference
-        - University Graduate Fellowship, Arizona State University
-    - year: 2025
-      items:
-        - Presidential Award (Ranked 1st, College of Engineering), Incheon National University
-        - Goddard Scholar, Weber State University
-    - year: 2024
-      items:
-        - Information Systems Game Day Analytics Competition, University of Utah
-        - Engineering College Early Taste Early Decision Competition, Incheon National University
-        - Employment-linked Scholarship, Incheon National University
-    - year: 2023
-      items:
-        - The 19th Industrial Engineering Project Competition, Korean Institute of Industrial Engineers
-    - year: 2021 – 2024
-      items:
-        - Academic Excellence Scholarship, Incheon National University
-
-- title: Academic Services
-  type: time_table
-  contents:
-    - year: 2026
-      items:
-        - Secondary Reviewer — IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)
-        - Secondary Reviewer — Design Automation Conference (DAC)
-
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: EDA Tools
-      items:
-        - Synopsys 3DIC Compiler, IC Validator (ICV), StarRC, PrimeTime
-    - title: Physical Design & Signoff
-      items:
-        - Floorplanning, Placement & Routing, DRC/LVS, Parasitic Extraction, STA, Timing Closure
-    - title: AI / ML Frameworks
-      items:
-        - PyTorch, TensorFlow, GNN, Fourier Neural Operator (FNO), Physics-Informed ML (PINN), Scikit-learn
-    - title: Simulation
-      items:
-        - Ansys CFD (Fluent), PyFluent
-    - title: Programming
-      items:
-        - Python, Tcl, C++, Verilog, SystemVerilog, SQL, HTML/CSS/JavaScript
-    - title: Infrastructure
-      items:
-        - Linux/Unix, Git, GPU Computing (PyTorch CUDA), KLayout, Tableau
+cv:
+  - title: General Information
+    type: map
+    contents:
+      - name: Full Name
+        value: Jimin Go
+      - name: Location
+        value: Tempe, AZ, United States
+      - name: Email
+        value: jimingo.jg@gmail.com
+      - name: Languages
+        value: English, Korean
+  
+  - title: Education
+    type: time_table
+    contents:
+      - title: M.S. in Computer Engineering (Computer Systems)
+        institution: Arizona State University, Tempe, AZ, USA
+        year: Aug 2025 –
+        description:
+          - "GPA: 4.0 / 4.0"
+          - "Advisor: Prof. Leslie K. Hwang"
+          - "University Graduate Fellowship: awarded for research progress and academic excellence"
+          - Expected graduation Dec 2026
+      - title: B.S. in Management Information Systems
+        institution: Weber State University, Ogden, UT, USA
+        year: 2024.01 – 2025.05
+        description:
+          - Dual Bachelor's Degree Program with Incheon National University (3 years at INU, 4 semesters at WSU)
+          - "GPA: 3.92 / 4.0"
+          - Top 10% of the Goddard School of Business & Economics
+      - title: B.E. in Industrial and Management Engineering
+        institution: Incheon National University, Incheon, Republic of Korea
+        year: 2021.03 – 2025.08
+        description:
+          - "GPA: 4.41 / 4.5"
+          - Presidential Award — Ranked 1st in the College of Engineering
+  
+  - title: Research & Project Experience
+    type: time_table
+    contents:
+      - title: Graduate Research Assistant — <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA</a>
+        institution: Arizona State University / Synopsys / Deca Technologies
+        year: Aug 2025 –
+        description:
+          - Executed full RTL-to-GDSII physical design for an RDL fan-out test vehicle — monitor design, floorplanning, timing-driven placement and routing using Synopsys 3DIC Compiler
+          - Reduced DRC/LVS violations from >100,000 to <30,000 in IC Validator (ICV) by root-causing layout rule and verification issues
+          - Building end-to-end signoff workflow integrating StarRC for parasitic extraction and PrimeTime for post-route STA and timing closure
+          - Contributed to custom PDK/ADK verification — identifying runset issues and reporting them to Synopsys for resolution
+          - "Co-authored GOMACTech 2026: <em>SHIELD USA: Leap-ahead Organic Substrate Enabled by Fan-Out Technology, Domestic Materials, Process Innovations, and Novel EDA Workflows</em>"
+      - title: Physics-Aware Neural Operator for Thermal Design Optimization in Advanced Packaging
+        institution: Arizona State University
+        year: Mar 2026 –
+        description:
+          - Developing a physics-informed ML framework for microchannel geometry generation targeting thermal management in 2.5D SiP and 3D-IC packaging
+          - Automated end-to-end PyFluent/Ansys CFD simulation workflows to generate training data for ML-guided design-space exploration
+          - Designing a physics-aware inverse modeling pipeline combining a diffusion model and Fourier Neural Operator (FNO)
+      - title: "Agentic AI: Towards Robust GUI Agents"
+        institution: Arizona State University (Course Research Project)
+        year: 2025.09 – 2025.12
+        description:
+          - Led development of a Transformer-based GUI navigation agent with self-attention mechanisms to predict sequential user actions
+          - Conducted comparative hyperparameter tuning across Transformer, 1D-CNN, and LSTM architectures — achieved MRR of 0.72
+          - Engineered multi-modal data preprocessing pipeline tokenizing UI elements and screen transitions
+  
+  - title: Teaching Experience
+    type: time_table
+    contents:
+      - title: Graduate Service Assistant — EEE 425/591 Digital Systems & Circuits
+        institution: Arizona State University
+        year: 2026
+        description:
+          - Supported 100+ students in digital systems and circuits coursework
+      - title: Teaching Assistant — MIS 2010 / 2030 / 2040
+        institution: Weber State University
+        year: 2025
+        description:
+          - "MIS 2010: Business Computer Skills"
+          - "MIS 2030: Introduction to Business Analytics"
+          - "MIS 2040: Business Analytics with Python"
+          - 50+ students per course
+  
+  - title: Selected Publications
+    type: time_table
+    contents:
+      - title: >
+          <a href="https://drive.google.com/file/d/1yXbdnmCC_0EWTl2QvNxx0MDKmAds5o5m/view">
+          SHIELD-USA: Leap-ahead Organic Substrate Enabled by Fan-out Technology, Domestic Materials, Process Innovations, and Novel EDA Workflows</a>
+        year: 2026
+        description:
+          - "G. Dogiamis, T. Takeuchi, C. Bishop, L. Hwang, A. Bunn, <strong>J. Go</strong>, et al."
+          - Conference on Government Microcircuit Applications & Critical Technology (GOMACTech), 2026
+      - title: >
+          <a href="https://doi.org/10.1007/s40684-026-00867-9">
+          ElectroTwin: A digital twin-driven framework for designing and scheduling in electroplating facilities</a>
+        year: 2026
+        description:
+          - "D. Lee, T. Noh, <strong>J. Go</strong>, I. Park, K. Kim"
+          - International Journal of Precision Engineering and Manufacturing-Green Technology, 2026
+      - title: >
+          <a href="https://doi.org/10.1016/j.eswa.2025.128593">
+          Multi-feature representation-based graph attention networks for predicting potential supply relationships in a large-scale supply chain network</a>
+        year: 2025
+        description:
+          - "D. Lee, <strong>J. Go</strong>, T. Noh, S. Song"
+          - Expert Systems with Applications, 2025
+  
+  - title: Patent
+    type: time_table
+    contents:
+      - title: Cyclic Hoist Scheduling Method, Manufacturing Method, and Cyclic Hoist Scheduling Apparatus
+        year: 2024
+        description:
+          - K. Kim, J. Go, T. Noh
+          - Korean Patent No. 10-2024-0007227
+  
+  - title: Honors & Awards
+    type: time_table
+    contents:
+      - year: 2026
+        items:
+          - DAC Young Fellow, Design Automation Conference
+          - University Graduate Fellowship, Arizona State University
+      - year: 2025
+        items:
+          - Presidential Award (Ranked 1st, College of Engineering), Incheon National University
+          - Goddard Scholar, Weber State University
+      - year: 2024
+        items:
+          - Information Systems Game Day Analytics Competition, University of Utah
+          - Engineering College Early Taste Early Decision Competition, Incheon National University
+          - Employment-linked Scholarship, Incheon National University
+      - year: 2023
+        items:
+          - The 19th Industrial Engineering Project Competition, Korean Institute of Industrial Engineers
+      - year: 2021 – 2024
+        items:
+          - Academic Excellence Scholarship, Incheon National University
+  
+  - title: Academic Services
+    type: time_table
+    contents:
+      - year: 2026
+        items:
+          - Secondary Reviewer — IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED)
+          - Secondary Reviewer — Design Automation Conference (DAC)
+  
+  - title: Technical Skills
+    type: nested_list
+    contents:
+      - title: EDA Tools
+        items:
+          - Synopsys 3DIC Compiler, IC Validator (ICV), StarRC, PrimeTime
+      - title: Physical Design & Signoff
+        items:
+          - Floorplanning, Placement & Routing, DRC/LVS, Parasitic Extraction, STA, Timing Closure
+      - title: AI / ML Frameworks
+        items:
+          - PyTorch, TensorFlow, GNN, Fourier Neural Operator (FNO), Physics-Informed ML (PINN), Scikit-learn
+      - title: Simulation
+        items:
+          - Ansys CFD (Fluent), PyFluent
+      - title: Programming
+        items:
+          - Python, Tcl, C++, Verilog, SystemVerilog, SQL, HTML/CSS/JavaScript
+      - title: Infrastructure
+        items:
+          - Linux/Unix, Git, GPU Computing (PyTorch CUDA), KLayout, Tableau
