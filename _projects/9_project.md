@@ -98,11 +98,7 @@ U-Net treats the thermal field prediction as an image-to-image regression task. 
 <b>Technology Stack</b>
 
 - <b>CFD Simulation</b>: Ansys PyFluent
-
 - <b>Deep Learning</b>: PyTorch
-
 - <b>Neural Networks</b>: DeepONet, Physics-Informed DeepONet
-
 - <b>Data Preprocessing</b>: Numpy, SciPy
-
 - <b>Visualization</b>: Matplotlib
