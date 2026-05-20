@@ -37,11 +37,11 @@ This project is built in stages. The foundational methodology work (neural opera
 
 Before building the pipeline, I conducted a systematic review of neural operator methods for PDE-based surrogate modeling, covering:
 
-- Graph Kernel Network (GKN) — the first neural operator formulation, using graph-based message passing to approximate solution operators across different discretizations
+- <b>Graph Kernel Network (GKN)</b> — the first neural operator formulation, using graph-based message passing to approximate solution operators across different discretizations
 
-- Fourier Neural Operator (FNO) — performs non-local operator learning in Fourier space via FFT, enabling efficient global spatial reasoning
+- <b>Fourier Neural Operator (FNO)</b> — performs non-local operator learning in Fourier space via FFT, enabling efficient global spatial reasoning
 
-- Physics-Informed Neural Operator (PINO) — extends FNO by incorporating PDE residual constraints into training, improving physical consistency when labeled data is scarce
+- <b>Physics-Informed Neural Operator (PINO)</b> — extends FNO by incorporating PDE residual constraints into training, improving physical consistency when labeled data is scarce
 
 You can find detailed literature survey results <a href="https://docs.google.com/presentation/d/1mFQrFEUKPdpj7XBUYKJmyj5gPp7OLWH1/edit?usp=drive_link&ouid=104050058597919759139&rtpof=true&sd=true">here</a>.
 
@@ -107,22 +107,18 @@ Normalization strategy critically affected extrapolation robustness: Unit Gaussi
 
 The full pipeline combines two components:
 
-- Forward model (FNO): Given a microchannel geometry and boundary conditions, predict the resulting thermal field. This is trained on CFD simulation data generated via automated PyFluent workflows.
+- <b>Forward model (FNO)</b>: Given a microchannel geometry and boundary conditions, predict the resulting thermal field. This is trained on CFD simulation data generated via automated PyFluent workflows.
 
-- Inverse model (Diffusion Model): Given a target thermal profile, generate candidate microchannel geometries that would produce it. The diffusion model is conditioned on the thermal target and guided by the FNO forward model to enforce physical feasibility.
+- <b>Inverse model (Diffusion Model)</b>: Given a target thermal profile, generate candidate microchannel geometries that would produce it. The diffusion model is conditioned on the thermal target and guided by the FNO forward model to enforce physical feasibility.
 
 Together, these form an autonomous design generation loop: a thermal requirement goes in, physically plausible geometries come out — no manual design iteration required.
 
 <b>Tools & Methods</b>
 
 <b>CFD Simulation</b>: Ansys Fluent / PyFluent (automated data generation pipeline)
-
 <b>Neural Operators</b>: Fourier Neural Operator (FNO), Physics-Informed Neural Operator (PINO)
-
 <b>Generative Modeling</b>: Diffusion model for geometry generation
-
 <b>Frameworks</b>: PyTorch, CUDA GPU computing
-
 <b>Target Application</b>: Microchannel cooling in 2.5D SiP and 3D-IC advanced packaging
 
 
