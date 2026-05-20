@@ -2,7 +2,7 @@
 layout: page
 title: ElectroTwin
 description: A Digital Twin-Driven Framework for Designing and Scheduling of Electroplating Facilities
-img: 
+img: "assets/img/electrotwin_outline.png"
 importance: 1
 category: Undergraduate
 related_publications: True
