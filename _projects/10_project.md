@@ -49,19 +49,13 @@ I am currently building an automated STA pipeline to support timing closure for 
 
 <b>Tool & Technology Stack</b>
 
-<b>Physical Implementation</b>:Synopsys 3DIC Compiler
-
-<b>Physical Verification</b>: Synopsys IC Validator (LVS/DRC)
-
-<b>Parasitic Extraction</b>: Synopsys StarRC
-
-<b>Layout Editing</b>: KLayout
-
-<b>Static Timing Analysis</b>: Synopsys PrimeTime
-
-<b>Netlist</b>: Verilog
-
-<b>Scripting & Automation</b>: Tcl, Python
+- <b>Physical Implementation</b>:Synopsys 3DIC Compiler
+- <b>Physical Verification</b>: Synopsys IC Validator (LVS/DRC)
+- <b>Parasitic Extraction</b>: Synopsys StarRC
+- <b>Layout Editing</b>: KLayout
+- <b>Static Timing Analysis</b>: Synopsys PrimeTime
+- <b>Netlist</b>: Verilog
+- <b>Scripting & Automation</b>: Tcl, Python
 
 <b>Context & Impact</b>
 
