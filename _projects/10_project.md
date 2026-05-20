@@ -61,7 +61,7 @@ I am currently building an automated STA pipeline to support timing closure for 
 
 <b>Netlist</b>: Verilog
 
-Scripting & Automation: Tcl, Python
+<b>Scripting & Automation</b>: Tcl, Python
 
 <b>Context & Impact</b>
 
