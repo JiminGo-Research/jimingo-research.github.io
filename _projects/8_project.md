@@ -2,7 +2,7 @@
 layout: page
 title: Physics-Aware Neural Operator for Thermal Design Optimization in Advanced Packaging
 description:
-img: ""
+img: "assets/img/Neural_operator.png"
 importance: 1
 category: Graduate Research
 ---
