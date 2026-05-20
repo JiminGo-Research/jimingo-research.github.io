@@ -146,23 +146,23 @@ cv:
           - Secondary Reviewer — Design Automation Conference (DAC)
   
   - title: Technical Skills
-      type: nested_list
-      contents:
-        - title: Physical Design & Signoff
-          items:
-            - Floorplanning, Placement & Routing, DRC/LVS, Parasitic Extraction, STA, Timing Closure
-        - title: EDA & IC Design Tools
-          items:
-            - Synopsys 3DIC Compiler, IC Validator (ICV), StarRC, PrimeTime, KLayout
-        - title: AI & Physics-Informed ML
-          items:
-            - PyTorch, TensorFlow, Fourier Neural Operator (FNO), Physics-Informed ML (PINN / PINO), GNN, Scikit-learn
-        - title: Engineering Simulation
-          items:
-            - Ansys CFD (Fluent), PyFluent, Design-Space Exploration (DSE)
-        - title: Programming Languages
-          items:
-            - Python, Tcl, C++, Verilog, SystemVerilog, SQL, HTML/CSS/JavaScript
-        - title: Infrastructure & Hardware
-          items:
-            - Linux/Unix, Git, GPU Computing (PyTorch CUDA), HPC environments, Tableau
+    type: nested_list
+    contents:
+      - title: Physical Design & Signoff
+        items:
+          - Floorplanning, Placement & Routing, DRC/LVS, Parasitic Extraction, STA, Timing Closure
+      - title: EDA & IC Design Tools
+        items:
+          - Synopsys 3DIC Compiler, IC Validator (ICV), StarRC, PrimeTime, KLayout
+      - title: AI & Physics-Informed ML
+        items:
+          - PyTorch, TensorFlow, Fourier Neural Operator (FNO), Physics-Informed ML (PINN / PINO), GNN, Scikit-learn
+      - title: Engineering Simulation
+        items:
+          - Ansys CFD (Fluent), PyFluent, Design-Space Exploration (DSE)
+      - title: Programming Languages
+        items:
+          - Python, Tcl, C++, Verilog, SystemVerilog, SQL, HTML/CSS/JavaScript
+      - title: Infrastructure & Hardware
+        items:
+          - Linux/Unix, Git, GPU Computing (PyTorch CUDA), HPC environments, Tableau
