@@ -5,10 +5,11 @@ description: A Digital Twin-Driven Framework for Designing and Scheduling of Ele
 img: "assets/img/electrotwin_outline.png"
 importance: 1
 category: Undergraduate
-related_publications: True
+related_publications: False
 ---
 
 <b>Overview</b>
+
 Electroplating facilities require simultaneous decisions on both <b>facility design</b> (how many hoists) and <b>operation scheduling</b> (how each hoist moves) — a combined problem known as the <b>Cyclic Hoist Designing and Scheduling Problem (CHDSP)</b>. These decisions are currently delegated to outsourcing companies due to the complexity of the formulation, which is costly, time-consuming (often 24+ hours per case), and produces opaque results that operators cannot easily interpret or validate.
 
 This project proposes <b>ElectroTwin</b>, a digital twin-driven decision-support framework that integrates an automated constraint-based search algorithm with visual analytics, enabling non-expert facility operators to make informed, data-driven investment and scheduling decisions.
@@ -72,10 +73,10 @@ C-Search scales with complexity $$O(N^2M)$$ — manageable for industrial-scale 
 
 ElectroTwin is implemented as a Python desktop application (Tkinter + Matplotlib) with five integrated functions:
 
-- (a)Data load — constructs the digital twin from facility configuration files
-- (b)Cycle time input & execution — triggers C-Search for a given $$\tau$$
-- (c)Output — displays the number of hoists and handover points
-- (d)Operation visualization — animates hoist movements and tank utilization in real time (with fast-forward option)
+- (a) Data load — constructs the digital twin from facility configuration files
+- (b) Cycle time input & execution — triggers C-Search for a given $$\tau$$
+- (c) Output — displays the number of hoists and handover points
+- (d) Operation visualization — animates hoist movements and tank utilization in real time (with fast-forward option)
 - (e) Visual analytics — Gantt chart, bottleneck analysis, and cost-profit analysis
 
 <div class="row">
@@ -93,10 +94,10 @@ ElectroTwin is implemented as a Python desktop application (Tkinter + Matplotlib
   </div>
 </div>
 <div class="caption">
-   Left — Fig. 4 from the paper showing the full GUI with labeled panels (a)–(e): settings, cycle time input, outputs, start/stop, and analytics tabs. Right — Fig. 5 from the paper showing the animated operation visualization with hoists and colored workpieces moving across the tank line.
+   Left: from the paper showing the full GUI with labeled panels (a)–(e): settings, cycle time input, outputs, start/stop, and analytics tabs. Right: from the paper showing the animated operation visualization with hoists and colored workpieces moving across the tank line.
 </div>
 
-<b></b>Experimental Results</b>
+</b>Experimental Results</b>
 Three real-world industrial cases from South Korean electroplating facilities were tested (16–24 stages, up to 28 tanks, cycle times of 193–600 seconds).
 
 <div class="row justify-content-center">
