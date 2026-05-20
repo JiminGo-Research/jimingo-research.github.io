@@ -2,8 +2,8 @@
 layout: default
 ---
 {% comment %}
-  Unified CV layout that perfectly preserves al-folio's original card styling,
-  strict paddings, and exact alignment rules.
+  Unified CV layout using al-folio's native component-include structure.
+  Directly maps custom YAML structure to default layout includes.
 {% endcomment %}
 
 <div class="post">
@@ -42,84 +42,25 @@ layout: default
         <div class="card mt-3 p-3">
           {% for section in cv_data %}
             <a class="anchor" id="{{ section.title | slugify }}"></a>
-            
             <div class="cv-section {% unless forloop.first %}mt-4{% endunless %}">
-              <h3 class="card-title font-weight-medium" style="font-size: 1.4rem; margin-bottom: 1rem; color: var(--global-text-color);">
-                {{ section.title }}
-              </h3>
-              
-              <div class="card-text">
+              <h3 class="card-title font-weight-medium">{{ section.title }}</h3>
+              <div>
+                {% assign entries = section.contents %}
+
                 {% if section.type == 'map' %}
-                  <table class="table table-cv table-sm table-borderless" style="margin-bottom: 0;">
-                    {% for item in section.contents %}
-                      <tr>
-                        <td class="p-1 pr-2 font-weight-bold" style="width: 20%; color: var(--global-text-color); vertical-align: top;"><b>{{ item.name }}</b></td>
-                        <td class="p-1 pl-2 font-weight-light" style="color: var(--global-text-color-light); vertical-align: top;">{{ item.value }}</td>
-                      </tr>
-                    {% endfor %}
-                  </table>
-
+                  {% include cv/map.liquid %}
                 {% elsif section.type == 'time_table' %}
-                  <table class="table table-cv table-sm table-borderless" style="margin-bottom: 0; width: 100%;">
-                    <tbody>
-                      {% for item in section.contents %}
-                        <tr style="background: transparent;">
-                          <td class="p-1 text-center" style="width: 120px; min-width: 120px; vertical-align: top;">
-                            {% if item.year %}
-                              <span class="badge font-weight-bold d-block" style="background-color: var(--global-theme-color); color: #fff; padding: 0.3rem 0.5rem; font-size: 0.75rem; border-radius: 4px; white-space: normal;">
-                                {{ item.year }}
-                              </span>
-                            {% endif %}
-                          </td>
-                          
-                          <td class="p-1 pl-4" style="vertical-align: top; padding-left: 1.5rem !important;">
-                            {% if item.title %}
-                              <h6 class="title font-weight-bold" style="font-size: 1rem; margin-top: 0.1rem; margin-bottom: 0.25rem; color: var(--global-text-color); line-height: 1.2;">
-                                {{ item.title }}
-                              </h6>
-                            {% endif %}
-                            
-                            {% if item.institution %}
-                              <p class="font-italic" style="font-size: 0.9rem; color: var(--global-text-color-light); margin-bottom: 0.4rem;">
-                                {{ item.institution }}
-                              </p>
-                            {% endif %}
-                            
-                            {% if item.description %}
-                              <ul class="items" style="padding-left: 1.1rem; margin-bottom: 0; font-size: 0.9rem; list-style-type: circle; color: var(--global-text-color);">
-                                {% for desc in item.description %}
-                                  <li style="margin-bottom: 0.25rem;">{{ desc }}</li>
-                                {% endfor %}
-                              </ul>
-                            {% endif %}
-
-                            {% if item.items %}
-                              <ul class="items" style="padding-left: 1.1rem; margin-bottom: 0; font-size: 0.9rem; list-style-type: circle; color: var(--global-text-color);">
-                                {% for subitem in item.items %}
-                                  <li style="margin-bottom: 0.25rem;">{{ subitem }}</li>
-                                {% endfor %}
-                              </ul>
-                            {% endif %}
-                          </td>
-                        </tr>
-                      {% endfor %}
-                    </tbody>
-                  </table>
-
+                  {% include cv/time_table.liquid %}
                 {% elsif section.type == 'nested_list' %}
-                  <div style="padding-left: 0.2rem;">
-                    {% for item in section.contents %}
-                      <div style="margin-bottom: 0.5rem; font-size: 0.92rem; line-height: 1.5;">
-                        <strong style="display: inline-block; width: 180px; vertical-align: top; color: var(--global-text-color);">{{ item.title }}:</strong>
-                        <span style="display: inline-block; width: calc(100% - 190px); font-weight: 300; color: var(--global-text-color-light); vertical-align: top;">
-                          {% for subitem in item.items %}
-                            {{ subitem }}{% unless forloop.last %}, {% endunless %}
-                          {% endfor %}
-                        </span>
-                      </div>
-                    {% endfor %}
-                  </div>
-
+                  {% include cv/nested_list.liquid %}
+                {% else %}
+                  {% for entry in entries %}
+                    {% if entry.bullet %}
+                      <ul class="card-text font-weight-light list-group list-group-flush">
+                        <li class="list-group-item">{{ entry.bullet | markdownify }}</li>
+                      </ul>
+                    {% endif %}
+                  {% endfor %}
                 {% endif %}
               </div>
             </div>
