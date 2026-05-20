@@ -20,5 +20,5 @@ I am a <b>Graduate student in Computer Engieering (Computer Systems) at Arizona 
 
 My research focuses on the intersection of <b>advanced semiconductor packaging</b> and <b>electronic design automation (EDA)</b>, with emphasis on 3D-IC integration and physics-aware machine learning for design optimization. I am particularly interested in neural networks, neural operators and surrogate modeling as tools to accelerate packaging co-design workflows.
 
-Currently, I am involved in the <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA Project</a> contributing to the development of EDA-enabled methodologies for heterogenous integration and advanced packaging. This work is published at GOMACTech 2026: <a href="assets/pdf/GOMACTech_2026.pdf">SHIELD USA: Leap-ahead Organic Substrate Enabled by Fan-Out Technology, Domestic Materials, Process Innovations, and Novel EDA Workflows</a>.
+Currently, I am involved in the <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA Project</a> contributing to the development of EDA-enabled methodologies for heterogenous integration and advanced packaging. This work is published at GOMACTech 2026: <a href="/assets/pdf/GOMACTech_2026.pdf">SHIELD USA: Leap-ahead Organic Substrate Enabled by Fan-Out Technology, Domestic Materials, Process Innovations, and Novel EDA Workflows</a>.
 
