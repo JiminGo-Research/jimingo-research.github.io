@@ -28,6 +28,9 @@ layout: default
 
   <article>
     <div class="cv">
+      {% comment %} 
+        데이터가 site.data.cv.cv 또는 site.data.cv에 있는 경우를 모두 대응합니다.
+      {% endcomment %}
       {% if site.data.cv.cv %}
         {% assign cv_data = site.data.cv.cv %}
       {% else %}
@@ -36,14 +39,13 @@ layout: default
 
       {% if cv_data %}
         {% for section in cv_data %}
-          
           <a class="anchor" id="{{ section.title | slugify }}"></a>
           <div class="card mt-3 p-3 border-0">
             <h3 class="card-title font-weight-medium">{{ section.title }}</h3>
-            
             <div>
+              
               {% if section.type == 'map' %}
-                <table class="table table-cv table-sm table-borderless" style="margin-bottom: 0.5rem;">
+                <table class="table table-cv table-sm table-borderless">
                   {% for item in section.contents %}
                     <tr>
                       <td class="p-1 pr-2 font-weight-bold" style="width: 20%;"><b>{{ item.name }}</b></td>
@@ -55,23 +57,25 @@ layout: default
               {% elsif section.type == 'time_table' %}
                 <ul class="card-text font-weight-light list-group list-group-flush">
                   {% for item in section.contents %}
-                    <li class="list-group-item" style="background: transparent; border: none; padding: 0.4rem 0;">
+                    <li class="list-group-item" style="background: transparent; border: none; padding: 0.5rem 0;">
                       <div class="row">
                         <div class="col-xs-2 col-sm-2 col-md-2 text-center" style="min-width: 120px;">
-                          <span class="badge font-weight-bold d-block" style="background-color: var(--global-theme-color, #00369f); color: #fff; padding: 0.4rem 0.6rem; font-size: 0.75rem; border-radius: 4px; white-space: normal;">
-                            {{ item.year }}
-                          </span>
+                          {% if item.year %}
+                            <span class="badge font-weight-bold d-block" style="background-color: var(--global-theme-color, #9c27b0); color: #fff; padding: 0.4rem 0.6rem; font-size: 0.75rem; border-radius: 4px; white-space: normal;">
+                              {{ item.year }}
+                            </span>
+                          {% endif %}
                         </div>
                         
                         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-sm-0">
                           {% if item.title %}
-                            <h6 class="title font-weight-bold" style="margin-left: 1.5rem; margin-bottom: 0.25rem; color: var(--global-text-color);">
+                            <h6 class="title font-weight-bold" style="margin-left: 1.5rem; margin-bottom: 0.25rem;">
                               {{ item.title }}
                             </h6>
                           {% endif %}
                           
                           {% if item.institution %}
-                            <p class="ml-4 font-italic" style="font-size: 0.9rem; color: var(--global-text-color-light); margin-bottom: 0.5rem; margin-left: 1.5rem;">
+                            <p class="ml-4 font-italic" style="font-size: 0.9rem; color: var(--global-text-color-light); margin-left: 1.5rem; margin-bottom: 0.5rem;">
                               {{ item.institution }}
                             </p>
                           {% endif %}
@@ -79,7 +83,7 @@ layout: default
                           {% if item.description %}
                             <ul class="items" style="padding-left: 2.5rem; margin-bottom: 0; font-size: 0.95rem; list-style-type: circle;">
                               {% for desc in item.description %}
-                                <li style="margin-bottom: 0.2rem;">{{ desc }}</li>
+                                <li style="margin-bottom: 0.25rem;">{{ desc }}</li>
                               {% endfor %}
                             </ul>
                           {% endif %}
@@ -87,7 +91,7 @@ layout: default
                           {% if item.items %}
                             <ul class="items" style="padding-left: 2.5rem; margin-bottom: 0; font-size: 0.95rem; list-style-type: circle;">
                               {% for subitem in item.items %}
-                                <li style="margin-bottom: 0.2rem;">{{ subitem }}</li>
+                                <li style="margin-bottom: 0.25rem;">{{ subitem }}</li>
                               {% endfor %}
                             </ul>
                           {% endif %}
@@ -100,9 +104,9 @@ layout: default
               {% elsif section.type == 'nested_list' %}
                 <div style="padding-left: 0.5rem; margin-top: 0.5rem;">
                   {% for item in section.contents %}
-                    <div style="margin-bottom: 0.5rem; font-size: 0.95rem;">
-                      <strong style="display: inline-block; width: 180px; vertical-align: top;">{{ item.title }}:</strong>
-                      <span style="display: inline-block; width: calc(100% - 190px); font-weight: 300; color: var(--global-text-color);">
+                    <div style="margin-bottom: 0.6rem; font-size: 0.95rem;">
+                      <strong style="display: inline-block; width: 220px; vertical-align: top;">{{ item.title }}:</strong>
+                      <span style="display: inline-block; width: calc(100% - 230px); font-weight: 300;">
                         {% for subitem in item.items %}
                           {{ subitem }}{% unless forloop.last %}, {% endunless %}
                         {% endfor %}
@@ -115,6 +119,8 @@ layout: default
             </div>
           </div>
         {% endfor %}
+      {% else %}
+        <p>No CV data found. Please configure your _data/cv.yml file properly.</p>
       {% endif %}
     </div>
   </article>
