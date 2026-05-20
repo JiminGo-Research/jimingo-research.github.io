@@ -40,7 +40,7 @@ cv:
     type: time_table
     contents:
       - title: Graduate Research Assistant — <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA</a>
-        institution: Arizona State University / Synopsys / Deca Technologies
+        institution: Arizona State University
         year: Aug 2025 –
         description:
           - Executed full RTL-to-GDSII physical design for an RDL fan-out test vehicle — monitor design, floorplanning, timing-driven placement and routing using Synopsys 3DIC Compiler
@@ -146,23 +146,23 @@ cv:
           - Secondary Reviewer — Design Automation Conference (DAC)
   
   - title: Technical Skills
-    type: nested_list
-    contents:
-      - title: EDA Tools
-        items:
-          - Synopsys 3DIC Compiler, IC Validator (ICV), StarRC, PrimeTime
-      - title: Physical Design & Signoff
-        items:
-          - Floorplanning, Placement & Routing, DRC/LVS, Parasitic Extraction, STA, Timing Closure
-      - title: AI / ML Frameworks
-        items:
-          - PyTorch, TensorFlow, GNN, Fourier Neural Operator (FNO), Physics-Informed ML (PINN), Scikit-learn
-      - title: Simulation
-        items:
-          - Ansys CFD (Fluent), PyFluent
-      - title: Programming
-        items:
-          - Python, Tcl, C++, Verilog, SystemVerilog, SQL, HTML/CSS/JavaScript
-      - title: Infrastructure
-        items:
-          - Linux/Unix, Git, GPU Computing (PyTorch CUDA), KLayout, Tableau
+      type: nested_list
+      contents:
+        - title: Physical Design & Signoff
+          items:
+            - Floorplanning, Placement & Routing, DRC/LVS, Parasitic Extraction, STA, Timing Closure
+        - title: EDA & IC Design Tools
+          items:
+            - Synopsys 3DIC Compiler, IC Validator (ICV), StarRC, PrimeTime, KLayout
+        - title: AI & Physics-Informed ML
+          items:
+            - PyTorch, TensorFlow, Fourier Neural Operator (FNO), Physics-Informed ML (PINN / PINO), GNN, Scikit-learn
+        - title: Engineering Simulation
+          items:
+            - Ansys CFD (Fluent), PyFluent, Design-Space Exploration (DSE)
+        - title: Programming Languages
+          items:
+            - Python, Tcl, C++, Verilog, SystemVerilog, SQL, HTML/CSS/JavaScript
+        - title: Infrastructure & Hardware
+          items:
+            - Linux/Unix, Git, GPU Computing (PyTorch CUDA), HPC environments, Tableau
