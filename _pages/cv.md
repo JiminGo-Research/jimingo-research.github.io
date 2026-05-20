@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: assets/pdf/JiminGo_CV_Final.pdf # you can also use external links here
 cv_format: rendercv
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description:
 toc:
   sidebar: left
 ---
