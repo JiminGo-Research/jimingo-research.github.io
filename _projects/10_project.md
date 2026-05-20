@@ -11,7 +11,7 @@ category: Graduate Research
 
 <a href="https://microelectronics.asu.edu/shield-usa/">SHIELD-USA</a> is a $100 million CHIPS R&D program funded by the U.S. Department of Commerce / NIST and led by Arizona State University in collaboration with Deca Technologies, AMD, IBM, Synopsys, and other major semiconductor partners. The program advances domestic advanced packaging capabilities by developing leap-ahead molded-core organic substrate technologies targeting 300 mm wafer-level and 600 mm panel-level manufacturing.
 
-As a member of the EDA team, I contribute to the design automation infrastructure that enables heterogeneous integration research across the consortium. This <a href="assets/pdf/GOMACTech_2026.pdf">work</a> is published at GOMACTech 2026.
+As a member of the EDA team, I contribute to the design automation infrastructure that enables heterogeneous integration research across the consortium. This <a href="https://drive.google.com/file/d/1yXbdnmCC_0EWTl2QvNxx0MDKmAds5o5m/view?usp=drive_link">work</a> is published at GOMACTech 2026.
 
 <b>My Contributions</b>
 
