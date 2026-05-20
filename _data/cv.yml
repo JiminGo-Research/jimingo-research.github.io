@@ -2,31 +2,34 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jimin Go
     - name: Date of Birth
-      value: 14th March 1879
+      value: 26th Feburay 2002
     - name: Languages
-      value: English, German
+      value: English, Korean
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. in Computer Engineering (Computer Systems)
+      institution: Arizona State University, AZ, USA
+      year: 2025.08
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 4.0/4.0
+        - University Graduate Fellowship: awarded for research progress and academic excellence
+    - title: B.S in Management Information Systems
+      institution: Weber State University, UT, USA
+      year: 2024.01 - 2025.05
       description:
-        - Description 1.
-        - Description 2.
+        - Dual Bachelor’s Degree Program with Incheon National University (3 years at INU, 4 semesters at WSU)
+        - GPA: 3.92/4.0
+        - •	Top 10% of the Goddard School of Business & Economics
+    - title: B.E in Industrial and Management Engineering
+      institution: Weber State University, UT, USA
+      year: 2021.03 - 2025.08
+      description:
+        - GPA: 4.41 / 4.5 
+        - Presidential Award (Ranked 1st in College of Engineering
 
 - title: Experience
   type: time_table
@@ -71,13 +74,29 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2026
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - DAC Young Fellow, 
+        - University Graduate Fellowship, Arizona State University
+    - year: 2025
       items:
-        - Max Planck Medal
+        - Presidential Award (Ranked 1st, College of Engineering), Incheon National University
+        - Goddard Scholar, Weber State University
+    - year: 2024
+      items:
+        - Information Systems Game Day Analytics Competition, University of Utah
+        - Engineering College Early Taste Early Decision Competition, Incheon National University
+    - year: 2023
+      items:
+        - The 19th Industrial Engineering Project Competition, Korean Institute of Industrial Engineers
+        - Academic Excellence Scholarship, Incheon National University
+    - year: 2022
+      items:
+        - Academic Excellence Scholarship, Incheon National University
+    - year: 2021
+      items:
+        - Academic Excellence Scholarship, Incheon National University
+    
 
 - title: Academic Interests
   type: nested_list
